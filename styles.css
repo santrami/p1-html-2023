@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: white;
+  /* color: white; */
   text-decoration: none;
 }
 ul {
@@ -37,9 +37,10 @@ ul {
     padding:20px 0px;
 }
 
-.nav-brand{
-    margin-top:120px;
-    width: 100px;
+.nav-img{
+    position: relative;
+    
+    width: 30px;
 }
 
 /* nav style left */
@@ -50,9 +51,27 @@ ul {
 
 .nav-main ul li {
     padding:10px;
+    padding-bottom: 0;
+    border-bottom: 1px solid transparent;
+    border-width: 5%; 
+    transition: border ease-in 0.2s;
+    color: #ffffffaa;
+}
+
+.nav-main .nav-menu>li:hover {
+    border-color: white;
+    border-width: 100%;
+    color:white;    
 }
 
 .nav-main ul.nav-menu {
-    flex-grow:1;
-    margin-left:20px;
+    flex:1;
+    margin-left:20px
+    /* margin-left:50px; */
+} 
+
+.separator{
+    opacity: 0.5;
+    height: 2px;
 }
+
