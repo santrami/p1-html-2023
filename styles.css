@@ -85,7 +85,7 @@ ul {
     margin-bottom: 20px;
 }
 
-.news .btn{
+.btn{
     cursor:pointer;
     display: inline-block;
     border:0;
@@ -95,12 +95,12 @@ ul {
     color: white;
     font-size:1.2rem;
     border: 1px solid #fff;
-    margin:10px;
+    margin-top:10px;
     background-color: #333124;
     transition: 0.2s;
 }
 
-.news .btn:hover{
+.btn:hover{
     background:#ffffff;
     color: black;
 }
@@ -154,3 +154,23 @@ ul {
     text-decoration: underline;
 }
 
+.content {
+    display: flex;
+    background-color: #736f5325;
+    padding:20px;
+    box-shadow:inset 0px 0px 15px 10px rgba(41, 6, 6, 0.333);
+}
+.content p {
+
+}
+
+.banner .content img {
+    width:30%;
+}
+
+.content-inside {
+    align-self: center;
+    justify-self: center;
+    justify-content: flex-start;
+    margin-left:20px
+}
