@@ -246,3 +246,26 @@ ul {
     padding: 20px;
 }
 
+@media (max-width: 768px) {
+    .events, .footer-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .banner .content, .banner2  {
+        font-size: 13px;
+    }
+
+    .banner .content  .btn, .banner2 .btn{
+        font-size: 13px;
+        padding:5px;
+    }
+
+    .banner .content img{
+        height: 200px;
+
+    }
+
+    .newscontent{
+        font-size: 12px;
+    }
+
+}   
