@@ -75,3 +75,7 @@ ul {
     height: 2px;
 }
 
+.news{
+    width: 100%;
+    background:url('./img/ayuda-general.jpg');
+}
