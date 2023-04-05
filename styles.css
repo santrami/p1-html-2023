@@ -243,6 +243,6 @@ ul {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     background-color: #262626;
-    grid-column: initial;
+    padding: 20px;
 }
 
